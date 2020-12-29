@@ -1,22 +1,24 @@
-"usuarios":[
-    {
-      "id": 1,
-      "name": "Tiago",
-      "lastname": "Ibacache",
-      "age": 23,
-      "desc": "Desarrollador"
-    },{
-      "id": 2,
-      "name": "Alan",
-      "lastname": "Ibacache",
-      "age": 23,
-      "desc": "Developer"
-    },{
-      "id": 3,
-      "name": "Jesús",
-      "lastname": "Ibacache",
-      "age": 23,
-      "desc": "React"
-    },
-      
-  ]
+{
+    "usuarios":[
+        {
+          "id": 1,
+          "name": "Tiago",
+          "lastname": "Ibacache",
+          "age": 23,
+          "desc": "Desarrollador"
+        },{
+          "id": 2,
+          "name": "Alan",
+          "lastname": "Ibacache",
+          "age": 23,
+          "desc": "Developer"
+        },{
+          "id": 3,
+          "name": "Jesús",
+          "lastname": "Ibacache",
+          "age": 23,
+          "desc": "React"
+        },
+
+      ]
+}
