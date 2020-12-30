@@ -1,37 +1,18 @@
 {  
-    "Outbox": [              
+    "users": [              
         {                
             "id": 1,                
-            "firstname": "Juan",                
-            "lastname": "Perez",                
-            "genre": "Masculino"              
-        }              
-        ,{                
+            "name": "Tiago",                
+            "lastname": "Ibacache",                
+            "age": 23,
+            "desc": "Developer"
+        },{                
             "id": 2,                
-            "firstname": "Maria",                
+            "name": "Maria",                
             "lastname": "Lopez",                
-            "genre": "Femenino"              
-        }  ],  
-    
-    "Favorites": [    
-        { "id": 1, 
-         "body": "Favorites 1", 
-         "postId": 1 
-        },    
-        { "id": 2, 
-         "body": "Favorites 2", 
-         "postId": 1 
-        }], 
-    
-    "Archived": [   
-        { 
-         "id": 1, 
-         "body": "Archived 1",
-         "postId": 1 },   
-      { "id": 2, 
-       "body": "Archived 2", 
-       "postId": 1 
-      }],  
+            "age": 23,
+            "desc": "Test"
+        }],
     "profile": {    
         "name": "typicode"  
     }}
