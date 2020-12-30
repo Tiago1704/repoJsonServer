@@ -1,24 +1,37 @@
-{
-    "users":[
-        {
-          "id": 1,
-          "name": "Tiago",
-          "lastname": "Ibacache",
-          "age": 23,
-          "desc": "Desarrollador"
-        },{
-          "id": 2,
-          "name": "Alan",
-          "lastname": "Ibacache",
-          "age": 23,
-          "desc": "Developer"
-        },{
-          "id": 3,
-          "name": "Jesús",
-          "lastname": "Ibacache",
-          "age": 23,
-          "desc": "React"
-        },
-
-      ]
-}
+{  
+    "Outbox": [              
+        {                
+            "id": 1,                
+            "firstname": "Juan",                
+            "lastname": "Perez",                
+            "genre": "Masculino"              
+        }              
+        ,{                
+            "id": 2,                
+            "firstname": "Maria",                
+            "lastname": "Lopez",                
+            "genre": "Femenino"              
+        }  ],  
+    
+    "Favorites": [    
+        { "id": 1, 
+         "body": "Favorites 1", 
+         "postId": 1 
+        },    
+        { "id": 2, 
+         "body": "Favorites 2", 
+         "postId": 1 
+        }], 
+    
+    "Archived": [   
+        { 
+         "id": 1, 
+         "body": "Archived 1",
+         "postId": 1 },   
+      { "id": 2, 
+       "body": "Archived 2", 
+       "postId": 1 
+      }],  
+    "profile": {    
+        "name": "typicode"  
+    }}
